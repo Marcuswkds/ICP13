@@ -68,8 +68,6 @@ for i in range(n):
     ax.get_xaxis().set_visible(False)
     ax.get_yaxis().set_visible(False)
 
-print((history.history.keys()))
-
 # Plotting the Accuracy.
 plot2 = plt.figure(2)
 plt.plot(history.history['accuracy'])
